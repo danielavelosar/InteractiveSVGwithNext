@@ -3,7 +3,7 @@ import {Helmet }from 'react-helmet';
 import { ReactDOM } from 'react';
 
 export default function Home(){
-  let title = 'visible';
+  let title = "hidden";
 
 
   return (
@@ -11,12 +11,11 @@ export default function Home(){
       <object data="/recurso.svg" type="image/svg+xml" id='texto'/>
       <Helmet>
         <script>
-          {`var lorem = document.getElementById('texto');
+          {`let lorem = document.getElementById('texto');
             lorem.addEventListener( 'load', () => {
             svg2 = lorem.contentDocument;
             let pruebaTexto = svg2.querySelector('#textoId');
-            pruebaTexto.innerHTML = '${title}';
-            pruebaTexto.style.visibility = '${title}';
+            pruebaTexto.innerHTML = 'prueba2';
             
           });
          

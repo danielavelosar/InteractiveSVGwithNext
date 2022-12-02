@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65.46 13.04">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 12px;
+        fill: #1d1d1b;
+        font-family: MyriadPro-Regular, Myriad Pro;
+      }
+      .cls-2 {
+        letter-spacing: -0.01em;
+      }
+      .cls-3 {
+        letter-spacing: -0.01em;
+      }
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <title>Recurso 1</title>
+  <g id="Capa_2" data-name="Capa 2">
+    <g id="Capa_1-2" data-name="Capa 1">
+      <text class="cls-1" transform="translate(0 10.04)">
+         Lorem 
+      </text>
+    </g>
+  </g>
+</svg>

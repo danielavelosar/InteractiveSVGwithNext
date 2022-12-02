@@ -3,7 +3,7 @@ import {Helmet }from 'react-helmet';
 import { ReactDOM } from 'react';
 
 export default function Home(){
-  let title = 'visible';
+  let title = 'hidden';
 
 
   return (
@@ -17,6 +17,7 @@ export default function Home(){
             let pruebaTexto = svg2.querySelector('#textoId');
             pruebaTexto.innerHTML = '${title}';
             pruebaTexto.style.visibility = '${title}';
+            
             
           });
          

@@ -3,45 +3,26 @@ import {Helmet }from 'react-helmet';
 import { ReactDOM } from 'react';
 
 export default function Home(){
-  let title = 'visible';
-
 
   return (
     <div>
-      <object data="/recurso.svg" type="image/svg+xml" id='texto'/>
-      <Helmet>
-        <script>
-          {`var lorem = document.getElementById('texto');
-            lorem.addEventListener( 'load', () => {
-            svg2 = lorem.contentDocument;
-            let pruebaTexto = svg2.querySelector('#textoId');
-            pruebaTexto.innerHTML = '${title}';
-            pruebaTexto.style.visibility = '${title}';
-            
-          });
-         
-      `}
-
-        </script>
-      </Helmet>
-
-
-      {/* <object data="/peruMap.svg" type="image/svg+xml" id='mapId'></object>
+      <object data="/peruMap.svg" type="image/svg+xml" id='mapId'></object>
       <Helmet>
         <script>
           {`let mapX = document.getElementById('mapId');
-            mapX.addEventListener( 'load', () => {
+          console.log(mapX);
+          mapX.addEventListener( 'load', () => {
             svgX = mapX.contentDocument;
+            console.log(svgX);
             let lima = svgX.querySelector('#LimaMap');
-            lima.style.visibility = 'hidden';
-            
-          });
+            console.log(lima);
+          }));
          
           
 `}
 
         </script>
-      </Helmet> */}
+      </Helmet>
       
        
 
